@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "./server.py", line 91, in <module>
+    server = Server()
+  File "./server.py", line 18, in __init__
+    self.accept_connections()
+  File "./server.py", line 30, in accept_connections
+    self.s.bind((ip, port))
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
